@@ -1,17 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { HashRouter, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker'
 import Signin from './components/Signin';
 import Signup from './components/Signup';
 import Home from './components/Home';
 import HeaderApp from './components/HeaderApp';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css'
 
 
  
-ReactDOM.render(<HeaderApp />, document.getElementById("header"));
+ReactDOM.render(<HeaderApp />, document.getElementById('header'));
 ReactDOM.render(<HashRouter>
   <div>
     <Route exact path="/" component={Signin} />

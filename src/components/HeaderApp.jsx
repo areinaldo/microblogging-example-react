@@ -17,7 +17,7 @@ class HeaderApp extends Component {
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
                                     <NavLink href="https://jesusfontecha.name/mern" target="_blank">
-                                        <span className="text-white">Desarrollo web full stack con MERN<AiOutlineCopyright /></span>
+                                        <span className="text-white">Desarrollo web full stack con MERN <AiOutlineCopyright /> </span>
                                         <Media style={imgStyle} object src={MyPlaceHolderPicture} alt="Desarrollo web MERN" />
                                     </NavLink>
                                     
@@ -27,7 +27,7 @@ class HeaderApp extends Component {
                     </Col>
                 </Row>
             </Container>
-        )
+        );
     }
 }
 
