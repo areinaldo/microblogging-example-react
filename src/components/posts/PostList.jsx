@@ -61,3 +61,5 @@ class PostList extends Component {
         
     }
 }
+
+export default PostList;
